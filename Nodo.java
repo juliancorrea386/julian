@@ -1,15 +1,12 @@
+package src;
 
 public class Nodo {
-    int dato;
-    Nodo siguiente;
-    public Nodo(int d){
-        this.dato=d;
-    }
-    //Constructor inicio
-    public Nodo(int d, Nodo n){
-        dato=d;
-        siguiente=n; 
+    int salario,horas,cedula;
+    String Nombre;
+    public Nodo(String Nombre,int cedula,int salario,int horas){
+        this.Nombre=Nombre;
+        this.cedula=cedula;
+        this.horas=horas;
+        this.salario=salario;
     }
 }
-
-    
